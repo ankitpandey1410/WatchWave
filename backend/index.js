@@ -21,7 +21,8 @@ app.use(express.json())
 app.use(cookieParser())
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  // origin: 'http://localhost:3000',
+  origin: 'https://watchwave-sooty.vercel.app',
   credentials: true
 }
 app.use(cors(corsOptions));
