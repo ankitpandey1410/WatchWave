@@ -7,14 +7,12 @@ import MovieList from './MovieList'
 import { setSearchMovieDetails } from '../redux/searchSlice'
 
 const SearchMovie = () => {
-
+  
   const [searchMovie, setSearchMovie] = useState("")
   const  dispatch = useDispatch();
   const isLoading = useSelector(store => store.app.isLoading)
   const {movieName, searchedMovie} = useSelector(store => store.searchMovie)
 
-  console.log(movieName);
-  console.log(searchedMovie);
 
   const submitHandler = async (e) => {
     e.preventDefault()
