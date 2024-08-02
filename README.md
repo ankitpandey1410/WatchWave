@@ -36,7 +36,6 @@ WatchWave is a MERN (MongoDB, Express, React, Node.js) project that allows users
 2. **Install server dependencies:**
 
   ```bash
-  Copy code
   cd server
   npm install
 
@@ -56,14 +55,12 @@ WatchWave is a MERN (MongoDB, Express, React, Node.js) project that allows users
 5. **Run the server:**
 
 ```bash
-  Copy code
   cd ../server
   npm start
 
 6. **Run the client:**
 
   ```bash
-  Copy code
   cd ../client
   npm start
   The application should now be running at http://localhost:3000.
