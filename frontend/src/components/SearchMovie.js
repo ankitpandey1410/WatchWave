@@ -43,7 +43,7 @@ const SearchMovie = () => {
       </div>
 
       {
-        searchedMovie?.length > 0 ? ( <MovieList title={movieName} searchMovie={true} movies={searchedMovie}/>) : (<h1>Movie Not Found!!</h1>)
+        searchedMovie?.length > 0 ? ( <MovieList title={movieName} searchMovie={true} movies={searchedMovie}/>) : (<h1 className='flex justify-center items-center h-[50vh] text-2xl font-bold'>Movie Not Found!!</h1>)
       }
       
     </>
